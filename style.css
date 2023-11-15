@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #aaa;
+}
+
+body{
+  background-image: url(/img/BackgroundBlue.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.clock {
+height: 100vh; /*Para ocupar toda a tela*/
+display: flex; /*Serve para alinhar os elementos */
+flex-direction: column;/*Display flex por padrao coloca os elementos um do lado do outro, com essa propriedade ele coloca um em cima do outro*/
+align-items: center;
+justify-content: center;
+
+}
+
+.display {
+  background-color: #2c2e43;
+  width: 80%; /* Utilizando porcentagem para largura responsiva */
+  max-width: 550px; /* Limitando a largura máxima */
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 7vw; /* Utilizando viewport width (vw) para tornar a fonte responsiva */
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.7px);
+-webkit-backdrop-filter: blur(8.7px);
+border: 1px solid rgba(255, 255, 255, 0.45);
+
+  /* Adicionando padding para espaçamento interno responsivo */
+  padding: 0 20px;
+}
+
+/* Media query para ajustes em telas menores que 600 pixels de largura */
+@media (max-width: 600px) {
+  .display {
+    font-size: 20vw;
+  }
+}
+
+
+
+
+footer{
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #333;
+  font-family: 'Pacifico', cursive;
+}
