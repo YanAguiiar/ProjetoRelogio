@@ -10,4 +10,4 @@ Design Personalizado: Foram feitas modificações significativas no design, incl
 
 Este projeto busca oferecer não apenas funcionalidade, mas também uma experiência visual agradável ao usuário. Sua evolução contínua reflete o compromisso com a qualidade e aprimoramento constante.
 
-Nota: Certifique-se de dar os devidos créditos a João Tinti, cuja aula serviu como base para este projeto.
+Créditos: João Tinti, cuja aula serviu como base para este projeto.
